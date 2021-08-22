@@ -1,302 +1,903 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link rel="stylesheet" href="./css/style.css">
+
   <title>Alfa Diseño de Sistemas</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <!-- NavBar -->
   <header>
-   <nav class="navbar navbar-expand-sm navbar-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="./img/logo_ads_white.png" alt="logo ADS en color blanco" title="logo ADS en color blanco">
-      </a>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo_ads_white.png" alt="logo ADS en color blanco" title="logo ADS en color blanco">
+        </a>
 
-      <button class="navbar-toggler" 
-              type="button" 
-              data-toggle="collapse" 
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="toggle navegation">
-         <span class="navbar-toggler-icon" ></span>
-      </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle navegation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto py-3">
-          <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Soluciones ADS</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-          <!-- <li class="nav-item"><a class="nav-link" href="#">Inicia sesion</a></li> -->
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto py-3">
+            <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Soporte</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Soluciones ADS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#">Inicia sesion</a></li> -->
+          </ul>
           <a href="#sesion" class="btn-custom">Inicia Sesion</a>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
     <div class="container">
       <div class="parrafo">
-        <p class="title">El Distribuidor Asociado Master de <span>CONTPAQI&#174;</span> <br>que ha recibido el reconocimiento como el primer lugar en ventas <br> por 16 años consecutivos en la Ciudad de México.</p>
+        <p class="title">El Distribuidor Asociado Master de <span>CONTPAQI&#174;</span> <br>que ha recibido el
+          reconocimiento como el primer lugar en ventas <br> por 16 años consecutivos en la Ciudad de México.</p>
         <button class="btn mt-3">Registrarme</button>
       </div>
     </div>
-</header>
+  </header>
 
-<main>
-  <div class="row" id="row-noticias">
-    <div class="container noti-row text-center">
-      <div class="row">
-        <h2 class="text-white py-4">Últimas noticias!!</h2>
-      </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <div id="inam" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                 <div class="container">
-                   <div class="row">
-                     <div class="col-sm-12 col-lg-4">
-                       <div class="card card-noti" >
-                        <i class="bi bi-youtube icon-noti"></i>
-                         <div class="card-body">
-                           <h5 class="card-title"> Contabilidad version 13</h5>
-                           <p>Ve lo nuevo que trae esta version</p>
-                           <a href="https://www.youtube.com/watch?v=Q-OyyLp-qwA" target="_blank">Aquí</a>
-                         </div>
-                         
-                       </div>
-                       
-                     </div>
-                     <div class="col-sm-12 col-lg-4">
-                       <div class="card card-noti" ">
-                        <i class="bi bi-youtube icon-noti"></i>
-                         <div class="card-body">
-                           <h5 class="card-title"> Comercial Premium version 6</h5>
-                           <p>Ve lo nuevo que trae esta version</p>
-                           <a href="https://www.youtube.com/watch?v=wL6KJ5BSTBY" target="_blank">Aquí</a>
-                         </div>
-                         
-                       </div>
-                       
-                     </div>
-                     <div class="col-sm-12 col-lg-4">
-                       <div class="card card-noti">
-                        <i class="bi bi-exclamation-triangle-fill icon-noti"></i>
-                         <div class="card-body">
-                           <h5 class="card-title"> Aviso Importante !</h5>
-                           <p>Tenemos Información valiosa par ti</p>
-                           <a href="" target="_blank">Aquí</a>
-                         </div>
-                         
-                       </div>
-                       
-                     </div>
-                     
-                   </div>
-                   
-                 </div>
-    
-                
+  <main>
+    <div class="row" id="row-noticias">
+      <div class="container noti-row text-center">
+        <div class="row">
+          <h2 class="text-white py-4">Últimas noticias!!</h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div id="inam" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-12 col-lg-4">
+                        <div class="card card-noti">
+                          <i class="bi bi-youtube icon-noti"></i>
+                          <div class="card-body">
+                            <h5 class="card-title"> Contabilidad version 13</h5>
+                            <p>Ve lo nuevo que trae esta version</p>
+                            <a href="https://www.youtube.com/watch?v=Q-OyyLp-qwA" target="_blank">Aquí</a>
+                          </div>
+
+                        </div>
+
+                      </div>
+                      <div class="col-sm-12 col-lg-4">
+                        <div class="card card-noti" ">
+                        <i class=" bi bi-youtube icon-noti"></i>
+                          <div class="card-body">
+                            <h5 class="card-title"> Comercial Premium version 6</h5>
+                            <p>Ve lo nuevo que trae esta version</p>
+                            <a href="https://www.youtube.com/watch?v=wL6KJ5BSTBY" target="_blank">Aquí</a>
+                          </div>
+
+                        </div>
+
+                      </div>
+                      <div class="col-sm-12 col-lg-4">
+                        <div class="card card-noti">
+                          <i class="bi bi-exclamation-triangle-fill icon-noti"></i>
+                          <div class="card-body">
+                            <h5 class="card-title"> Aviso Importante !</h5>
+                            <p>Tenemos Información valiosa par ti</p>
+                            <a href="" target="_blank">Aquí</a>
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-12 col-lg-4">
+                        <div class="card card-noti">
+                          <i class="bi bi-youtube icon-noti"></i>
+                          <div class="card-body">
+                            <h5 class="card-title">Diagnóstico035</h5>
+                            <p>En su version 2.0, ve lo nuevo que trae esta version</p>
+                            <a href="https://www.youtube.com/watch?v=NnoVuxV_SwM" target="_blank">Aquí</a>
+                          </div>
+
+                        </div>
+
+                      </div>
+                      <div class="col-sm-12 col-lg-4">
+                        <div class="card card-noti">
+                          <i class="bi bi-file-earmark-pdf icon-noti"></i>
+                          <div class="card-body">
+                            <h5 class="card-title">Proceso SUA</h5>
+                            <p>Haz la configuración del SUA en tu sistema de nóminas</p>
+                            <a href="https://www.youtube.com/watch?v=isv3NO-yIKw" target="_blank">Descargar</a>
+                          </div>
+
+                        </div>
+
+                      </div>
+                      <div class="col-sm-12 col-lg-4">
+                        <div class="card card-noti">
+                          <i class="bi bi-calendar icon-noti"></i>
+                          <div class="card-body">
+                            <h5 class="card-title">Próximos eventos</h5>
+                            <p>Revisa los nuevos eventos que ADS tiene para ti</p>
+                            <a href="https://www.youtube.com/watch?v=isv3NO-yIKw" target="_blank">Aquí</a>
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+
+                </div>
+
               </div>
-              <div class="carousel-item">
-                 <div class="container">
-                   <div class="row">
-                     <div class="col-sm-12 col-lg-4">
-                      <div class="card card-noti">
-                        <i class="bi bi-youtube icon-noti"></i>
-                         <div class="card-body">
-                           <h5 class="card-title">Diagnóstico035</h5>
-                           <p>En su version 2.0, ve lo nuevo que trae esta version</p>
-                           <a href="https://www.youtube.com/watch?v=NnoVuxV_SwM" target="_blank">Aquí</a>
-                         </div>
-                         
-                       </div>
-                       
-                     </div>
-                     <div class="col-sm-12 col-lg-4">
-                      <div class="card card-noti">
-                        <i class="bi bi-file-earmark-pdf icon-noti"></i>
-                         <div class="card-body">
-                           <h5 class="card-title">Proceso SUA</h5>
-                           <p>Haz la configuración del SUA en tu sistema de nóminas</p>
-                           <a href="https://www.youtube.com/watch?v=isv3NO-yIKw" target="_blank">Descargar</a>
-                         </div>
-                         
-                       </div>
-                       
-                     </div>
-                     <div class="col-sm-12 col-lg-4">
-                      <div class="card card-noti">
-                        <i class="bi bi-calendar icon-noti"></i>
-                         <div class="card-body">
-                           <h5 class="card-title">Próximos eventos</h5>
-                           <p>Revisa los nuevos eventos que ADS tiene para ti</p>
-                           <a href="https://www.youtube.com/watch?v=isv3NO-yIKw" target="_blank">Aquí</a>
-                         </div>
-                         
-                       </div>
-                       
-                     </div>
-                     
-                   </div>
-                   
-                 </div>
-    
-                
-              </div>
-              
+              <a href="#inam" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a href="#inam" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+
             </div>
-            <a href="#inam" class="carousel-control-prev" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a href="#inam" class="carousel-control-next" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
-            
+
           </div>
-          
-        </div>
-        
-      </div>
-      
-    </div>
-  </div>
 
-  <div class="row" id="row-nosotros">
-    <div class="container container-nosotros">
-      <div class="row ">
-        <div class="col text-center">
-          <img src="./img/premioM.jpg" alt="premio_ads" title="premio_ads">
         </div>
-        <div class="col">
-          <h3 class="fw-bold mb-4 title-nosotros">
-            ¿QUIÉNES SOMOS?
-          </h3>
-          <p>Alfa Diseño de Sistemas es el Distribuidor Asociado Master de CONTPAQ i® con más de 20 años de experiencia y que durante los últimos 16 años de manera consecutiva ha recibido el reconocimiento como Primer Lugar en Ventas en la Ciudad de México.</p>
-          <p>Además de comercializar los productos CONTPAQ i®, contamos con los servicios de soporte técnico en las modalidades de servicio remoto o en sitio, capacitación en sitio o en nuestras oficinas, asesoría, implementación, manejo de proyectos, conversión de información y desarrollo de aplicaciones que complementan la funcionalidad de los sistemas CONTPAQ i®.</p>
-          <p>Alfa Diseño de Sistemas fue la primer empresa en 2006 en incorporar la tecnología de soporte remoto, a la fecha contamos con más de 20 licencias de TeamViewer®, de esta manera estamos preparados para atender cualquier requerimiento a nivel nacional de forma inmediata.Generamos material propio de capacitación tanto en videos como en manuales.</p>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="row" id="row-productos">
-    
-    <div class="contenedor">
-      <div class="row">
-        <div class="col">
-          <div class="tarjeta">
-            <div class="tarjeta_img">
-              <img src="./img/Logos i H/CONTPAQi_submarca_contabilidad_RGB_A.png" alt="">
-            </div>
-            <div class="tarjeta_contenido">
-              <h2>CONTPAQI Contabilidad</h2>
-              <p>El software contable favorito de los Contadores: facilita la captura, registro y procesamiento de tu información, estás al día y en orden con tus obligaciones fiscales y cumples con la Contabilidad Electrónica.</p>
-            </div>
-        </div>
-      </div>
       </div>
     </div>
 
-    <!-- Card 2 -->
-    <div class="card mb-3 card-2" style="max-width: 540px;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="./img/Logos i V/Nominas.png" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Contpaqi Nominas</h5>
-            <p class="card-text">Administra tu nómina y cumple en tiempo con todas las obligaciones de ley. CONTPAQi® Nóminas es el software que te ayuda a llevar un control en el cálculo y pago de sueldos y salarios, así como estar al día con las obligaciones obrero-patronales; además de facilitar la emisión y timbrado del CFDI de nómina..</p>
-            
+    <div class="row" id="row-nosotros">
+      <div class="container container-nosotros">
+        <div class="row ">
+          <div class="col text-center">
+            <img src="./img/premioM.jpg" alt="premio_ads" title="premio_ads">
+          </div>
+          <div class="col">
+            <h3 class="fw-bold mb-4 title-nosotros">
+              ¿QUIÉNES SOMOS?
+            </h3>
+            <p>Alfa Diseño de Sistemas es el Distribuidor Asociado Master de CONTPAQ i® con más de 20 años de
+              experiencia y que durante los últimos 16 años de manera consecutiva ha recibido el reconocimiento como
+              Primer Lugar en Ventas en la Ciudad de México.</p>
+            <p>Además de comercializar los productos CONTPAQ i®, contamos con los servicios de soporte técnico en las
+              modalidades de servicio remoto o en sitio, capacitación en sitio o en nuestras oficinas, asesoría,
+              implementación, manejo de proyectos, conversión de información y desarrollo de aplicaciones que
+              complementan la funcionalidad de los sistemas CONTPAQ i®.</p>
+            <p>Alfa Diseño de Sistemas fue la primer empresa en 2006 en incorporar la tecnología de soporte remoto, a la
+              fecha contamos con más de 20 licencias de TeamViewer®, de esta manera estamos preparados para atender
+              cualquier requerimiento a nivel nacional de forma inmediata.Generamos material propio de capacitación
+              tanto en videos como en manuales.</p>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- SECCION PRODUCTOS -->
+
+    <div class="row" id="row-productos">
+      <div class="container p-5">
+        <div class="row">
+          <h3 class="text-center pb-5 h1">Productos</h3>
+        </div>
+
+        <div class="row">
+          <hr>
+          <h3 pb-3>Procesos Contables</h3>
+          <hr>
+        </div>
+
+        <div class="row p-3">
+          <div class="col">
+            <!-- inicia Card -->
+            <div class="tarjeta">
+              <div class="tarjeta_img">
+                <img src="./img/Logos i H/CONTPAQi_submarca_contabilidad_RGB_A.png" alt="">
+              </div>
+              <div class="tarjeta_contenido">
+                <h2>CONTPAQI Contabilidad</h2>
+                <p>El software contable favorito de los Contadores: facilita la captura, registro y procesamiento de tu
+                  información, estás al día y en orden con tus obligaciones fiscales y cumples con la Contabilidad
+                  Electrónica.</p>
+              </div>
+            </div>
+            <!-- fin card -->
+          </div>
+
+          <div class="col">
+            <!-- inicia Card -->
+            <div class="tarjeta">
+              <div class="tarjeta_img">
+                <img src="./img/Logos i H/CONTPAQi_submarca_Nominas_RGB_A.png" alt="">
+              </div>
+              <div class="tarjeta_contenido">
+                <h2>CONTPAQI Contabilidad</h2>
+                <p>El software contable favorito de los Contadores: facilita la captura, registro y procesamiento de tu
+                  información, estás al día y en orden con tus obligaciones fiscales y cumples con la Contabilidad
+                  Electrónica.</p>
+              </div>
+            </div>
+            <!-- fin card -->
+          </div>
+
+        </div>
+
+        <!-- fila 2 -->
+        <div class="row p-3">
+          <div class="col">
+            <!-- inicia Card -->
+            <div class="tarjeta">
+              <div class="tarjeta_img">
+                <img src="./img/Logos i H/CONTPAQi_submarca_bancos_RGB_A.png" alt="">
+              </div>
+              <div class="tarjeta_contenido">
+                <h2>CONTPAQI Contabilidad</h2>
+                <p>El software contable favorito de los Contadores: facilita la captura, registro y procesamiento de tu
+                  información, estás al día y en orden con tus obligaciones fiscales y cumples con la Contabilidad
+                  Electrónica.</p>
+              </div>
+            </div>
+            <!-- fin card -->
+          </div>
+
+          <div class="col">
+            <!-- inicia Card -->
+            <div class="tarjeta">
+              <div class="tarjeta_img">
+                <img src="./img/Logos i H/CONTPAQi_submarca_XML en linea+_RGB_A.png" alt="">
+              </div>
+              <div class="tarjeta_contenido">
+                <h2>CONTPAQI Contabilidad</h2>
+                <p>El software contable favorito de los Contadores: facilita la captura, registro y procesamiento de tu
+                  información, estás al día y en orden con tus obligaciones fiscales y cumples con la Contabilidad
+                  Electrónica.</p>
+              </div>
+            </div>
+            <!-- fin card -->
+          </div>
+
+        </div>
+        <!-- termina fila 2 -->
+
+        <!-- inicia productos comerciales -->
+        <div class="row pt-5">
+          <hr>
+          <h3 pb-3>Procesos Comerciales</h3>
+          <hr>
+        </div>
+
+        <div class="row p-3">
+          <div class="col">
+            <!-- inicia Card -->
+            <div class="tarjeta">
+              <div class="tarjeta_img">
+                <img src="./img/Logos i H/CONTPAQi_submarca_Comercial_Pro_RGB_A.png" alt="">
+              </div>
+              <div class="tarjeta_contenido">
+                <h2>CONTPAQI Contabilidad</h2>
+                <p>El software contable favorito de los Contadores: facilita la captura, registro y procesamiento de tu
+                  información, estás al día y en orden con tus obligaciones fiscales y cumples con la Contabilidad
+                  Electrónica.</p>
+              </div>
+            </div>
+            <!-- fin card -->
+          </div>
+
+          <div class="col">
+            <!-- inicia Card -->
+            <div class="tarjeta">
+              <div class="tarjeta_img">
+                <img src="./img/Logos i H/CONTPAQi_submarca_Comercial_Pro_RGB_A.png" alt="">
+              </div>
+              <div class="tarjeta_contenido">
+                <h2>CONTPAQI Contabilidad</h2>
+                <p>El software contable favorito de los Contadores: facilita la captura, registro y procesamiento de tu
+                  información, estás al día y en orden con tus obligaciones fiscales y cumples con la Contabilidad
+                  Electrónica.</p>
+              </div>
+            </div>
+            <!-- fin card -->
+          </div>
+
+        </div>
+
+        <!-- fila 2 -->
+        <div class="row p-3">
+          <div class="col">
+            <!-- inicia Card -->
+            <div class="tarjeta">
+              <div class="tarjeta_img">
+                <img src="./img/Logos i H/CONTPAQi_submarca_Comercial_Start_RGB_A.png" alt="">
+              </div>
+              <div class="tarjeta_contenido">
+                <h2>CONTPAQI Contabilidad</h2>
+                <p>El software contable favorito de los Contadores: facilita la captura, registro y procesamiento de tu
+                  información, estás al día y en orden con tus obligaciones fiscales y cumples con la Contabilidad
+                  Electrónica.</p>
+              </div>
+            </div>
+            <!-- fin card -->
+          </div>
+
+          <div class="col">
+            <!-- inicia Card -->
+            <div class="tarjeta">
+              <div class="tarjeta_img">
+                <img src="./img/Logos i H/CONTPAQi_submarca_Factura electronica_RGB_A.png" alt="">
+              </div>
+              <div class="tarjeta_contenido">
+                <h2>CONTPAQI Contabilidad</h2>
+                <p>El software contable favorito de los Contadores: facilita la captura, registro y procesamiento de tu
+                  información, estás al día y en orden con tus obligaciones fiscales y cumples con la Contabilidad
+                  Electrónica.</p>
+              </div>
+            </div>
+            <!-- fin card -->
+
+
+          </div>
+
+        </div>
+        <!-- termina fila 2 -->
+        <!-- inicia fila 3 -->
+        <!-- fila 2 -->
+        <div class="row p-3">
+          <div class="col">
+            <!-- inicia Card -->
+            <div class="tarjeta">
+              <div class="tarjeta_img">
+                <img src="./img/Logos i H/CONTPAQi_submarca_Punto de Venta_RGB_A.png" alt="">
+              </div>
+              <div class="tarjeta_contenido">
+                <h2>CONTPAQI Contabilidad</h2>
+                <p>El software contable favorito de los Contadores: facilita la captura, registro y procesamiento de tu
+                  información, estás al día y en orden con tus obligaciones fiscales y cumples con la Contabilidad
+                  Electrónica.</p>
+              </div>
+            </div>
+            <!-- fin card -->
+          </div>
+          <!-- termina fila 3 -->
+          <!-- Terminan procesos comerciales -->
+          <!-- inician productos nube -->
+          <div class="row pt-5">
+            <hr>
+            <h3 pb-3>Procesos en la nube</h3>
+            <hr>
+          </div>
+
+          <div class="row p-3">
+            <div class="col">
+              <!-- inicia Card -->
+              <div class="tarjeta">
+                <div class="tarjeta_img">
+                  <img src="./img/Logos i H/Logo - CONTPAQi Escritorio_Virtual (Mediana).png" alt="">
+                </div>
+                <div class="tarjeta_contenido">
+                  <h2>CONTPAQI Contabilidad</h2>
+                  <p>El software contable favorito de los Contadores: facilita la captura, registro y procesamiento de
+                    tu
+                    información, estás al día y en orden con tus obligaciones fiscales y cumples con la Contabilidad
+                    Electrónica.</p>
+                </div>
+              </div>
+              <!-- fin card -->
+            </div>
+
+            <div class="col">
+              <!-- inicia Card -->
+              <div class="tarjeta">
+                <div class="tarjeta_img">
+                  <img src="./img/Logos i H/Logo - CONTPAQi Respaldos.png" alt="">
+                </div>
+                <div class="tarjeta_contenido">
+                  <h2>CONTPAQI Contabilidad</h2>
+                  <p>El software contable favorito de los Contadores: facilita la captura, registro y procesamiento de
+                    tu
+                    información, estás al día y en orden con tus obligaciones fiscales y cumples con la Contabilidad
+                    Electrónica.</p>
+                </div>
+              </div>
+              <!-- fin card -->
+            </div>
+
+          </div>
+
+
+          <!-- terminan productos nube -->
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="row" id="row-productos">
+
+      <div class="contenedor">
+        <div class="row">
+          <div class="col">
+            <div class="tarjeta">
+              <div class="tarjeta_img">
+                <img src="./img/Logos i H/CONTPAQi_submarca_contabilidad_RGB_A.png" alt="">
+              </div>
+              <div class="tarjeta_contenido">
+                <h2>CONTPAQI Contabilidad</h2>
+                <p>El software contable favorito de los Contadores: facilita la captura, registro y procesamiento de tu
+                  información, estás al día y en orden con tus obligaciones fiscales y cumples con la Contabilidad
+                  Electrónica.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+    <!-- Card 2
+      <div class="card mb-3 card-2" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./img/Logos i V/Nominas.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Contpaqi Nominas</h5>
+              <p class="card-text">Administra tu nómina y cumple en tiempo con todas las obligaciones de ley. CONTPAQi®
+                Nóminas es el software que te ayuda a llevar un control en el cálculo y pago de sueldos y salarios, así
+                como estar al día con las obligaciones obrero-patronales; además de facilitar la emisión y timbrado del
+                CFDI de nómina..</p>
+
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+    <!-- Card con ventana modal -->
 
     <!-- CARD-3 -->
-    <div class="row">
-      <div class="container">
-        <div class=" product card text-center card-system">
-          <img class="img_vertical" src="./img/Logos i H/CONTPAQi_submarca_Comercial_Premium_RGB_A.png" class="card-img-top" alt="...">
-          <a class="popup-btn">Saber más</a>
-         
-          <div class="popup-view">
-            <div class="popup-card">
-              <a><i class="fas fa-times close-btn"></i></a>
-              <div class="product-img">
-                <img src="./img/Logos i v/Comercial_Premium.png" alt="">
+    <!-- <div class="row">
+        <div class="container">
+          <div class=" product card text-center card-system">
+            <img class="img_vertical" src="./img/Logos i H/CONTPAQi_submarca_Comercial_Premium_RGB_A.png"
+              class="card-img-top" alt="...">
+            <a class="popup-btn">Saber más</a>
+
+            <div class="popup-view">
+              <div class="popup-card">
+                <a><i class="fas fa-times close-btn"></i></a>
+                <div class="product-img">
+                  <img src="./img/Logos i v/Comercial_Premium.png" alt="">
+                </div>
+                <div class="info">
+                  <h2><span>Contpaqi Comercial</span></h2>
+                  <p>CONTPAQi® Comercial Premium te ayuda a controlar el proceso administrativo, comercial y financiero
+                    de tu empresa, configurando módulos, reportes y procesos a tu medida; además de cumplir en tiempo y
+                    forma con las disposiciones fiscales de la Factura Electrónica (CFDI 3.3</p>
+
+
+                </div>
               </div>
-              <div class="info">
-                <h2><span>Contpaqi Comercial</span></h2>
-                <p>CONTPAQi® Comercial Premium te ayuda a controlar el proceso administrativo, comercial y financiero de tu empresa, configurando módulos, reportes y procesos a tu medida; además de cumplir en tiempo y forma con las disposiciones fiscales de la Factura Electrónica (CFDI 3.3</p>
-                
-                
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div> -->
+
+    <!-- termina card con modal -->
+
+    <!-- Seccion soporte -->
+
+    <div class="row" id="row-soporte">
+      <div class="container-sm p-5">
+        <div class="row pb-5">
+          <h3 class="text-center h1">
+            Soporte
+          </h3>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="row">
+              <div class="col">
+                <!-- card -->
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <i class="bi bi-headset icon-noti"></i>
+                      <!-- <i class="far fa-comments"></i> -->
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                        <h5 class="card-title">Centro de atención</h5>
+                        <p class="card-text">Resuelve tus dudas o inquietudes sobre los sistemas de Contapqi via
+                          Teamviwer</p>
+                        <a href="https://www.youtube.com/watch?v=Q-OyyLp-qwA" target="_blank">Ir al servicio</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- fin card -->
+
+                <!-- card 2-->
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <i class="bi bi-youtube icon-noti"></i>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                        <h5 class="card-title">Cursos en video</h5>
+                        <p class="card-text">Descubre el funcionamiento de los sistemas Contpaqi con nuestros cursos</p>
+                        <a href="https://www.youtube.com/user/wwwadscommx" target="_blank">Ver</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- fin card -->
+
+                <!-- card 3 -->
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <i class="bi bi-file-earmark-pdf icon-noti"></i>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                        <h5 class="card-title">Manuales y guías</h5>
+                        <p class="card-text">Conoce el funcionamiento de tus sistemas Contpaqi con el material realizado
+                          por ADS</p>
+                        <a href="https://www.youtube.com/watch?v=Q-OyyLp-qwA" target="_blank">Ver</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- fin card -->
+
+              </div>
+
+              <!-- segunda columna -->
+
+              <div class="col">
+                <!-- card -->
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <i class="bi bi-file-earmark-text icon-noti"></i>
+                      <!-- <i class="far fa-file-alt"></i> -->
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                        <h5 class="card-title">Póliza de soporte tecnico</h5>
+                        <p class="card-text">Hay varios tipos de póliza de servicio, revisa cúal es la mejor para ti</p>
+                        <a href="https://www.youtube.com/watch?v=Q-OyyLp-qwA" target="_blank">Ver Opciones</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- fin card -->
+
+                <!-- card -->
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <i class="bi bi-gear icon-noti"></i>
+                      <!-- <i class="fas fa-cogs"></i> -->
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                        <h5 class="card-title">Implementaciones</h5>
+                        <p class="card-text">Solicita a un experto para adaptar los sistemas Contpaqi a tú negocio</p>
+                        <a href="https://www.youtube.com/watch?v=Q-OyyLp-qwA" target="_blank">Ir al servicio</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- fin card -->
+
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
+    </div>
+    </div>
 
+<!-- Sección Soluciones ADS -->
+<div class="tabs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="text-center">Soluciones ADS</h2>
+        <br>
+      </div>
+    </div>
+
+
+<div class="row">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a href="#tab-1" class="nav-link active" id="nav-tab-1" data-toggle="tab">
+        <i class="bi bi-bookmark"></i>
+        Principal
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a href="#tab-2" class="nav-link" id="nav-tab-2" data-toggle="tab">
+        <i class="bi bi-gear"></i>
+        Caracteristicas
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a href="#tab-3" class="nav-link" id="nav-tab-3" data-toggle="tab">
+        <i class="bi bi-file-earmark-play"></i>
+        Video
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- Contenido tabs -->
+
+<div class="tab-content">
+  <!-- inicia tab 1 -->
+  <div class="tab-pane fade show active" id="tab-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card left-pane">
+            <div class="card-body">
+              <div class="text-card p-5">
+                <h4 class="card-title">¿Qué es Diagnostico 035?</h4>
+                <br>
+                <p>
+                  Diagnóstico 035 es una herramienta en la nube (100% web) que te ayuda a dar cumplimiento a la
+                  Normatividad NOM-035-STPS-2018, a través de la evaluación de cada uno de tus colaboradores con el fin de
+                  identificar, analizar y mitigar los factores de riesgo psicosocial de tu empresa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 p-5">
+          <a href="https://diagnostico035.com/" target="_black" alt="logo_diagnostico"><img src="./img/Diagnóstico035.png" class="img-fluid" alt="logo-diagnostico035"></a>
+        </div>
+      </div>
+    </div>
   </div>
+  <!-- Fin tab 1 -->
 
-  <div class="row" id="row-servicios">
-    
+  <!-- inicia tab 2 -->
+  <div class="tab-pane fade" id="tab-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card left-pane">
+            <div class="card-body">
+              <div class="card-icon">
+                <i class="fas fa-city"></i>
+              </div>
+                <div class="text-card">
+                  <h4 class="text-card">Sistema Multi-RFC</h4>
+                <p>Se puede trabajar en varias empresas</p>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-icon">
+                <i class="fas fa-cloud"></i>
+              </div>
+                <div class="text-card">
+                  <h4 class="text-card">100% en la nube</h4>
+                <p>No se instala nada en tu equipo</p>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-icon">
+                <i class="fas fa-file-excel"></i>
+              </div>
+                <div class="text-card">
+                  <h4 class="text-card">Archivos en Excel</h4>
+                <p>Se puede trabajar con archivos de Excel</p>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+                <div class="text-card">
+                  <h4 class="text-card">Correo electronico</h4>
+                <p>Envío de las evaluaciones por mail</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card left-pane">
+            <div class="card-body">
+              <div class="card-icon">
+                <i class="fas fa-file-alt"></i>
+              </div>
+              <div class="text-card">
+                <h3 class="class-title">Reportes</h3>
+                <p>Se pueden generar varios reportes</p>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-icon">
+                <i class="fas fa-columns"></i>
+              </div>
+                <div class="text-card">
+                  <h4 class="text-card">Tablero	informativo</h4>
+                <p>Brinda	conocimiento	rápidamente	de	las	encuestas.</p>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-icon">
+                <i class="fas fa-file-alt"></i>
+              </div>
+                <div class="text-card">
+                  <h4 class="text-card">Cuenta	con	las	guías</h4>
+                <p>De	referencia	I,	II,	III,	establecidas	por	la	NOM035</p>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-icon">
+                <i class="fas fa-file-pdf"></i>
+              </div>
+                <div class="text-card">
+                  <h4 class="text-card">Exporta	los	resultados</h4>
+                <p>Individual o globlamente en PDF</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card left-pane">
+            <div class="card-body">
+              <div class="card-icon">
+                <i class="fas fa-file-import"></i>
+              </div>
+              <div class="text-card">
+                <h3 class="class-title">Importación</h3>
+                <p>Se puede importar información</p>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-icon">
+                <i class="fas fa-file-export"></i>
+              </div>
+                <div class="text-card">
+                  <h4 class="text-card">Exportación</h4>
+                <p>Se puede exportar información</p>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-icon">
+                <i class="fas fa-cubes"></i>
+              </div>
+                <div class="text-card">
+                  <h4 class="text-card">Paquetes</h4>
+                <p>Paquetes a la medida de tu empresa</p>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-icon">
+                <i class="fas fa-id-badge"></i>
+              </div>
+                <div class="text-card">
+                  <h4 class="text-card">Licencia Anual</h4>
+                <p>Pueden trabajar los 365 días del año</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
   </div>
+  <!-- Fin tab 2 -->
 
-  <div class="row" id="row-soluciones">
-    
+  <!-- inicia tab 3 -->
+  <div class="tab-pane fade" id="tab-3">
+    <div class="container">
+      <div class="row-video">
+        <div class="col-lg-8">
+          <br>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/gXU_D4tofZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
   </div>
+  <!-- Fin tab 3 -->
+</div>
+</div>
+</div>
+   
 
-</main>
+  </main>
+  
 
-<footer> 
+  <footer>
 
-</footer>
+  </footer>
 
- 
 
-<script type="text/javascript">
-  var popupViews = document.querySelectorAll('.popup-view');
-  var popupBtns = document.querySelectorAll('.popup-btn');
-  var closeBtns = document.querySelectorAll('.close-btn');
 
-  //javascript for quick view button
-  var popup = function(popupClick){
-    popupViews[popupClick].classList.add('active');
-  }
+  <script type="text/javascript">
+    var popupViews = document.querySelectorAll('.popup-view');
+    var popupBtns = document.querySelectorAll('.popup-btn');
+    var closeBtns = document.querySelectorAll('.close-btn');
 
-  popupBtns.forEach((popupBtn, i) => {
-    popupBtn.addEventListener("click", () => {
-      popup(i);
-    });
-  });
+    //javascript for quick view button
+    var popup = function (popupClick) {
+      popupViews[popupClick].classList.add('active');
+    }
 
-  //javascript for close button
-  closeBtns.forEach((closeBtn) => {
-    closeBtn.addEventListener("click", () => {
-      popupViews.forEach((popupView) => {
-        popupView.classList.remove('active');
+    popupBtns.forEach((popupBtn, i) => {
+      popupBtn.addEventListener("click", () => {
+        popup(i);
       });
     });
-  });
+
+    //javascript for close button
+    closeBtns.forEach((closeBtn) => {
+      closeBtn.addEventListener("click", () => {
+        popupViews.forEach((popupView) => {
+          popupView.classList.remove('active');
+        });
+      });
+    });
   </script>
+
+  <script src="./js/tab.js"></script>
   <script src="./js/bootstrap.min.js"></script>
   <script src="./js/popper.min.js"></script>
-  
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> -->
+
 </body>
+
 </html>

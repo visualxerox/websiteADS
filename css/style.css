@@ -435,3 +435,72 @@ a.nav-link:hover {
 .row-video {
   padding-left: 250px;
 }
+
+/* style footer */
+
+.row-footer {
+  background-color: #30797C;
+  color: white;
+}
+
+.phone {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.phone .fas{
+  color: #fff;
+}
+
+.redes {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.redes i {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.email p {
+  font-size: 1.5rem;
+}
+
+
+.form input{
+  inline-size: 100%;
+  border: 1px solid white;
+  box-sizing: border-box;
+  background: #30797c;
+  border-radius: 8px;
+  padding-inline: 16px;
+  padding-block: 12px;
+  color: #f2f2f2;
+  font-size: 16px;
+  display: block;
+  margin-block-end: 24px;
+}
+
+.form textarea {
+  margin-block-end: 24px;
+  inline-size: 100%;
+}
+
+.form input::-webkit-input-placeholder {
+  color: #f2f2f2;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  color: #30797C;
+  font-weight: 700;
+}
+
+
+#correo-ads {
+  opacity: 0;
+}

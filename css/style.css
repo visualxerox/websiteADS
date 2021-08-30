@@ -346,6 +346,14 @@ a.nav-link:hover {
   text-transform: uppercase;
 }
 
+
+/* Style soporte */
+
+.icon {
+  padding-left: 25px;
+}
+
+
 /* estilos soluciones ADS */
 /* #row-soluciones {
   background: #f2f2f2;
@@ -475,8 +483,8 @@ a.nav-link:hover {
   flex-direction: column;
 }
 
-.redes i {
-  font-size: 2.5rem;
+.redes a {
+  font-size: 3.5rem;
   color: #fff;
 }
 
